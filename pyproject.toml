@@ -1,0 +1,20 @@
+[project]
+name = "diligence-evidence-agent"
+version = "0.0.1"
+description = "Auditable investment diligence agent with evidence-linked claims and human review gates."
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2",
+  "requests>=2.31"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
