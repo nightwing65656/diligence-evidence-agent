@@ -1,5 +1,4 @@
 import pytest
-
 from diligence_agent.evidence import Claim, EvidenceSpan, unsupported_claim_rate
 
 
